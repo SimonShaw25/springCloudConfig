@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigClientApplication
 {
 
+
   @Value("${foo}")
   String foo;
-
   public static void main(String[] args)
   {
     SpringApplication.run(ConfigClientApplication.class, args);
