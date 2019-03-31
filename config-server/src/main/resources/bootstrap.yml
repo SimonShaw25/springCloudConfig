@@ -7,8 +7,8 @@ spring:
         git:
           uri: https://github.com/SimonShaw25/springCloudConfig/
           search-paths: config
-          username: SimonShaw25  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
+          username: SimonShaw25
           password: xzclove123
 
 server:
-  port: 8888
+  port: 9999
